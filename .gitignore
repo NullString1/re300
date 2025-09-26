@@ -1,0 +1,8 @@
+/target
+openwrt/
+u-boot/
+*.bin
+*.lock
+.direnv/
+configs/
+.envrc

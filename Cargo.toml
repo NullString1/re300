@@ -1,0 +1,17 @@
+[package]
+name = "re300"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+binwalk = "3.1.0"
+clap = { version = "4.0", features = ["derive"] }
+memmap2 = "0.9"
+indicatif = "0.17"
+log = "0.4"
+env_logger = "0.10"
+thiserror = "1.0"
+anyhow = "1.0"
+aes = "0.8.4"
+flate2 = { version = "1.1.2", features = ["zlib-ng"] }
+md5 = "0.8.0"
