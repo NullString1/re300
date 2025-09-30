@@ -14,7 +14,7 @@ _Note: you may need to disable hardware flow control_
 
 TX, RX and GND pads are labelled and located near the bottom left of the device as shown in the picture where the yellow wires are soldered.
 
-![[serial.jpg]]
+![serial.jpg]()
 #### Interrupting u-boot to open shell
 Timing is very tight and you will likely have to try again many times before the magic string input times out. Just power off the device and repeat until you get shell prompt
 1. Open serial console
