@@ -14,7 +14,7 @@ _Note: you may need to disable hardware flow control_
 
 TX, RX and GND pads are labelled and located near the bottom left of the device as shown in the picture where the yellow wires are soldered.
 
-![serial.jpg]()
+![](serial.jpg)
 #### Interrupting u-boot to open shell
 Timing is very tight and you will likely have to try again many times before the magic string input times out. Just power off the device and repeat until you get shell prompt
 1. Open serial console
@@ -29,7 +29,7 @@ If you have a ch341a flash programmer, raspberry pi, pi pico (with serprog firmw
 
 Using a SOP-8 chip clip is recommended as this is fastest and easiest way to connect to the chip. Otherwise, you can use individual pin clips (very hard) or solder wires directly to the chip. 
 
-![[serial.jpg]]
+![](serial.jpg)
 
 1. Disconnect the device from power and open the cover 
 2. Connect the flash chip to your programmer of choice *(ENSURE POWER IS NOT CONNECTED, YOU MAY KILL YOUR DEVICE AND YOUR PROGRAMMER)*
